@@ -1,7 +1,7 @@
 {
   "brand": "IndexRidge",
   "landing_page": "https://1nfr457ruc7ur3.github.io/geospectral-data-portal/",
-  "updated_at_utc": "2026-06-23T10:25:33Z",
+  "updated_at_utc": "2026-06-23T10:26:20Z",
   "source_rights": {
     "source": "Copernicus Sentinel-2 L2A imagery accessed through Microsoft Planetary Computer STAC",
     "policy_summary": "Copernicus Sentinel data is described as available on a free, full and open basis; commercial reuse is allowed under the Copernicus/Sentinel data policy, subject to source acknowledgement and no-warranty limitations.",
@@ -27,7 +27,7 @@
       "published": true,
       "price_cents": 1900,
       "currency": "gbp",
-      "files_count": 1,
+      "files_count": 0,
       "source_item_id": "S2B_MSIL2A_20260619T110619_R137_T31UCU_20260619T133614",
       "selected_datetime": "2026-06-19T11:06:19.024000Z",
       "selected_cloud_cover": 0.764507
@@ -50,7 +50,7 @@
       "published": true,
       "price_cents": 1900,
       "currency": "gbp",
-      "files_count": 1,
+      "files_count": 0,
       "source_item_id": "S2B_MSIL2A_20260622T112109_R037_T30UWB_20260622T134132",
       "selected_datetime": "2026-06-22T11:21:09.024000Z",
       "selected_cloud_cover": 15.932752
@@ -73,7 +73,7 @@
       "published": true,
       "price_cents": 1900,
       "currency": "gbp",
-      "files_count": 1,
+      "files_count": 0,
       "source_item_id": "S2C_MSIL2A_20260525T110621_R137_T30UWD_20260525T144513",
       "selected_datetime": "2026-05-25T11:06:21.025000Z",
       "selected_cloud_cover": 0.002191
@@ -92,11 +92,11 @@
         52.35
       ],
       "gumroad_product_id": "4ylx3GQR2gRgNGF4TmdqXw==",
-      "short_url": "https://ridgeindex.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer",
+      "short_url": "https://indexridge.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer",
       "published": true,
       "price_cents": 1900,
       "currency": "gbp",
-      "files_count": 1,
+      "files_count": 0,
       "source_item_id": "S2B_MSIL2A_20260619T110619_R137_T31UCU_20260619T133614",
       "selected_datetime": "2026-06-19T11:06:19.024000Z",
       "selected_cloud_cover": 0.764507
