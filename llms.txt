@@ -3,10 +3,10 @@
 Landing page: https://1nfr457ruc7ur3.github.io/geospectral-data-portal/
 
 Products:
-- IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer (£19): https://ridgeindex.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer — Sentinel-2 derived NDVI vegetation GeoTIFF sample layer with source metadata and processing notes.
 - IndexRidge UK Agricultural NDMI Moisture GeoTIFF Sample Layer (£19): https://indexridge.gumroad.com/l/indexridge-uk-agricultural-ndmi-moisture-geotiff-sample-layer — Sentinel-2 derived NDMI moisture GeoTIFF sample for UK agricultural GIS and crop-stress workflow testing.
 - IndexRidge UK Floodplain NDWI Water GeoTIFF Sample Layer (£19): https://indexridge.gumroad.com/l/indexridge-uk-floodplain-ndwi-water-geotiff-sample-layer — Sentinel-2 derived NDWI water-index GeoTIFF sample for UK floodplain/wetness GIS workflow testing.
 - IndexRidge UK Urban NDBI Built-Surface GeoTIFF Sample Layer (£19): https://indexridge.gumroad.com/l/indexridge-uk-urban-ndbi-built-surface-geotiff-sample-layer — Sentinel-2 derived NDBI built-surface GeoTIFF sample for UK urban GIS and land-use workflow testing.
+- IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer (£19): https://ridgeindex.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer — Sentinel-2 derived NDVI vegetation GeoTIFF sample layer with source metadata and processing notes.
 
 Source: Copernicus Sentinel-2 L2A imagery via Microsoft Planetary Computer STAC.
 Limitations: analytical samples only; not official/regulatory/legal/insurance/planning/financial data; no AWS Marketplace/Data Exchange approval claimed.
