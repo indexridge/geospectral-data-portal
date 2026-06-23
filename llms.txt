@@ -1,0 +1,10 @@
+# IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer
+
+IndexRidge sells a £19 digital download containing a Sentinel-2 derived UK agricultural NDVI GeoTIFF sample layer plus JSON metadata report, README, and license/disclaimer.
+
+Primary landing page: https://1nfr457ruc7ur3.github.io/geospectral-data-portal/
+Gumroad product: https://ridgeindex.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer
+
+Use cases: QGIS, ArcGIS Pro, GDAL, rasterio, Python GIS, remote-sensing workflow testing, vegetation-index dashboard prototypes, raster ETL smoke tests.
+
+Limitations: analytical sample only; not official, legal, insurance, planning, financial, or regulatory data; no AWS Marketplace/Data Exchange approval is claimed.
