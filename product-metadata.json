@@ -1,26 +1,82 @@
 {
-  "product": "IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer",
   "brand": "IndexRidge",
-  "live_url": "https://ridgeindex.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer",
   "landing_page": "https://1nfr457ruc7ur3.github.io/geospectral-data-portal/",
-  "price_gbp": "19.00",
-  "format": [
-    "GeoTIFF",
-    "JSON metadata report",
-    "README",
-    "license/disclaimer"
-  ],
-  "keywords": [
-    "NDVI",
-    "GeoTIFF",
-    "Sentinel-2",
-    "QGIS",
-    "rasterio",
-    "remote sensing",
-    "UK agriculture",
-    "GIS"
-  ],
-  "published": true,
-  "updated_at_utc": "2026-06-23T10:08:04Z",
-  "limitations": "Analytical sample only; not official, regulatory, legal, insurance, planning, or financial data."
+  "updated_at_utc": "2026-06-23T10:22:08Z",
+  "source_rights": {
+    "source": "Copernicus Sentinel-2 L2A imagery accessed through Microsoft Planetary Computer STAC",
+    "policy_summary": "Copernicus Sentinel data is described as available on a free, full and open basis; commercial reuse is allowed under the Copernicus/Sentinel data policy, subject to source acknowledgement and no-warranty limitations.",
+    "licence_reference": "https://ecds.ecmwf.int/licences/ec-sentinel",
+    "access_reference": "https://www.copernicus.eu/en/terms-use/how-access-data"
+  },
+  "products": [
+    {
+      "key": "east_anglia_ndmi",
+      "title": "IndexRidge UK Agricultural NDMI Moisture GeoTIFF Sample Layer",
+      "short_title": "UK Agricultural NDMI Moisture",
+      "summary": "Sentinel-2 derived NDMI moisture GeoTIFF sample for UK agricultural GIS and crop-stress workflow testing.",
+      "index_name": "NDMI",
+      "aoi_label": "East Anglia / Cambridgeshire agricultural sample AOI",
+      "bbox_wgs84": [
+        0.05,
+        52.15,
+        0.3,
+        52.35
+      ],
+      "gumroad_product_id": "8-CTdxmxxCpNrnZqii2wEA==",
+      "short_url": "https://ridgeindex.gumroad.com/l/indexridge-uk-agricultural-ndmi-moisture-geotiff-sample-layer",
+      "published": true,
+      "price_cents": 1900,
+      "currency": "gbp",
+      "files_count": 1,
+      "source_item_id": "S2B_MSIL2A_20260619T110619_R137_T31UCU_20260619T133614",
+      "selected_datetime": "2026-06-19T11:06:19.024000Z",
+      "selected_cloud_cover": 0.764507
+    },
+    {
+      "key": "somerset_ndwi",
+      "title": "IndexRidge UK Floodplain NDWI Water GeoTIFF Sample Layer",
+      "short_title": "UK Floodplain NDWI Water",
+      "summary": "Sentinel-2 derived NDWI water-index GeoTIFF sample for UK floodplain/wetness GIS workflow testing.",
+      "index_name": "NDWI",
+      "aoi_label": "Somerset Levels / UK floodplain sample AOI",
+      "bbox_wgs84": [
+        -3.05,
+        51.0,
+        -2.65,
+        51.25
+      ],
+      "gumroad_product_id": "mjlc1rsxBd9YkgC9Cd5ugA==",
+      "short_url": "https://ridgeindex.gumroad.com/l/indexridge-uk-floodplain-ndwi-water-geotiff-sample-layer",
+      "published": true,
+      "price_cents": 1900,
+      "currency": "gbp",
+      "files_count": 1,
+      "source_item_id": "S2B_MSIL2A_20260622T112109_R037_T30UWB_20260622T134132",
+      "selected_datetime": "2026-06-22T11:21:09.024000Z",
+      "selected_cloud_cover": 15.932752
+    },
+    {
+      "key": "west_midlands_ndbi",
+      "title": "IndexRidge UK Urban NDBI Built-Surface GeoTIFF Sample Layer",
+      "short_title": "UK Urban NDBI Built-Surface",
+      "summary": "Sentinel-2 derived NDBI built-surface GeoTIFF sample for UK urban GIS and land-use workflow testing.",
+      "index_name": "NDBI",
+      "aoi_label": "West Midlands / Birmingham urban sample AOI",
+      "bbox_wgs84": [
+        -2.15,
+        52.35,
+        -1.7,
+        52.65
+      ],
+      "gumroad_product_id": "K9-8hcAsCiYqYZrOPa1u9A==",
+      "short_url": "https://ridgeindex.gumroad.com/l/indexridge-uk-urban-ndbi-built-surface-geotiff-sample-layer",
+      "published": true,
+      "price_cents": 1900,
+      "currency": "gbp",
+      "files_count": 1,
+      "source_item_id": "S2C_MSIL2A_20260525T110621_R137_T30UWD_20260525T144513",
+      "selected_datetime": "2026-05-25T11:06:21.025000Z",
+      "selected_cloud_cover": 0.002191
+    }
+  ]
 }
