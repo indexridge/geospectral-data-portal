@@ -3,39 +3,102 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Download an IndexRidge Sentinel-2 derived UK agricultural NDVI GeoTIFF sample layer for GIS and data-science review.">
-  <title>IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer</title>
+  <title>IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer | IndexRidge</title>
+  <meta name="description" content="Download a £19 IndexRidge Sentinel-2 derived UK agricultural NDVI GeoTIFF sample layer for QGIS, rasterio, GDAL, and remote-sensing analytics.">
+  <link rel="canonical" href="https://1nfr457ruc7ur3.github.io/geospectral-data-portal/">
+  <meta property="og:type" content="product">
+  <meta property="og:title" content="IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer">
+  <meta property="og:description" content="Sentinel-2 derived NDVI GeoTIFF sample layer for GIS, QGIS, rasterio, and remote-sensing workflow testing.">
+  <meta property="og:url" content="https://1nfr457ruc7ur3.github.io/geospectral-data-portal/">
+  <meta property="og:image" content="https://1nfr457ruc7ur3.github.io/geospectral-data-portal/og.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer">
+  <meta name="twitter:description" content="Ready-to-load UK agricultural NDVI GeoTIFF sample layer for GIS/data-science review.">
+  <meta name="twitter:image" content="https://1nfr457ruc7ur3.github.io/geospectral-data-portal/og.svg">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer","brand":{"@type":"Brand","name":"IndexRidge"},"description":"A Sentinel-2 derived UK agricultural NDVI GeoTIFF sample layer for GIS, QGIS, rasterio, and remote-sensing workflow testing.","category":"Geospatial data","url":"https://1nfr457ruc7ur3.github.io/geospectral-data-portal/","image":"https://1nfr457ruc7ur3.github.io/geospectral-data-portal/og.svg","offers":{"@type":"Offer","price":"19.00","priceCurrency":"GBP","availability":"https://schema.org/InStock","url":"https://ridgeindex.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What file format is included?","acceptedAnswer":{"@type":"Answer","text":"The package includes a compressed GeoTIFF raster, JSON processing report, README, and license/disclaimer text."}},{"@type":"Question","name":"Can I use it in QGIS or Python?","acceptedAnswer":{"@type":"Answer","text":"Yes. The GeoTIFF is intended for QGIS, ArcGIS Pro, GDAL, rasterio, and similar GIS/data-science tools."}},{"@type":"Question","name":"Is it official or regulatory data?","acceptedAnswer":{"@type":"Answer","text":"No. It is an analytical sample data product and should be independently validated before operational or commercial reliance."}}]}</script>
   <style>
-    :root { color-scheme: light; }
     * { box-sizing: border-box; }
-    body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #0f172a; }
-    .wrap { max-width: 68rem; margin: 0 auto; padding: 4rem 1.25rem; }
-    .hero { display: grid; gap: 1.25rem; padding: 3rem; border: 1px solid #dbeafe; border-radius: 2rem; background: linear-gradient(135deg,#eff6ff,#ecfeff); box-shadow: 0 24px 60px rgba(15,23,42,.08); }
-    .eyebrow { color: #0369a1; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .78rem; }
-    h1 { margin: 0; font-size: clamp(2rem, 6vw, 4.5rem); line-height: .95; letter-spacing: -.05em; }
-    p { color: #475569; line-height: 1.7; font-size: 1.08rem; }
-    .cta { display: inline-flex; align-items: center; justify-content: center; width: fit-content; padding: .9rem 1.15rem; border-radius: 999px; background: #0f172a; color: white; text-decoration: none; font-weight: 750; }
-    .grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(14rem,1fr)); gap: 1rem; margin-top: 1.25rem; }
-    .card { background:white; border:1px solid #e2e8f0; border-radius:1.25rem; padding:1.1rem; }
-    .card strong { display:block; margin-bottom:.35rem; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background:#f8fafc; color:#0f172a; }
+    a { color:inherit; }
+    .wrap { max-width:76rem; margin:0 auto; padding:3.25rem 1.25rem 5rem; }
+    .hero { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(18rem,.85fr); gap:2rem; align-items:center; padding:2rem; border:1px solid #dbeafe; border-radius:2rem; background:linear-gradient(135deg,#eff6ff,#ecfeff); box-shadow:0 24px 60px rgba(15,23,42,.08); }
+    .eyebrow { color:#0369a1; font-weight:800; letter-spacing:.1em; text-transform:uppercase; font-size:.78rem; }
+    h1 { margin:.55rem 0 .85rem; font-size:clamp(2.3rem,6vw,5.1rem); line-height:.94; letter-spacing:-.06em; }
+    .lead { color:#334155; line-height:1.65; font-size:1.18rem; max-width:54rem; }
+    .cta-row { display:flex; flex-wrap:wrap; gap:.8rem; align-items:center; margin-top:1.35rem; }
+    .cta { display:inline-flex; align-items:center; justify-content:center; width:fit-content; padding:1rem 1.22rem; border-radius:999px; background:#0f172a; color:white; text-decoration:none; font-weight:850; box-shadow:0 10px 24px rgba(15,23,42,.18); }
+    .secondary { background:white; color:#0f172a; border:1px solid #cbd5e1; box-shadow:none; }
+    .price { display:inline-flex; align-items:center; padding:.72rem .9rem; border-radius:999px; background:#dcfce7; color:#14532d; font-weight:850; }
+    .panel { background:white; border:1px solid #e2e8f0; border-radius:1.5rem; padding:1.2rem; }
+    .stats { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.75rem; }
+    .stat { padding:.95rem; border-radius:1rem; background:#f8fafc; border:1px solid #e2e8f0; }
+    .stat b { display:block; font-size:1.35rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(16rem,1fr)); gap:1rem; margin-top:1.25rem; }
+    .card { background:white; border:1px solid #e2e8f0; border-radius:1.25rem; padding:1.15rem; }
+    .card strong { display:block; margin-bottom:.35rem; font-size:1.05rem; }
+    h2 { margin:2.4rem 0 .75rem; font-size:clamp(1.6rem,3vw,2.4rem); letter-spacing:-.04em; }
+    p, li { color:#475569; line-height:1.7; }
     .note { font-size:.95rem; color:#64748b; }
+    .faq details { background:white; border:1px solid #e2e8f0; border-radius:1rem; padding:1rem; margin:.75rem 0; }
+    .faq summary { cursor:pointer; font-weight:800; }
+    code { background:#e2e8f0; padding:.12rem .35rem; border-radius:.35rem; }
+    footer { margin-top:3rem; padding-top:1.5rem; border-top:1px solid #e2e8f0; }
+    @media (max-width:760px) { .hero { grid-template-columns:1fr; padding:1.25rem; } }
   </style>
 </head>
 <body>
   <main class="wrap">
     <section class="hero">
-      <div class="eyebrow">IndexRidge geospatial data</div>
-      <h1>UK agricultural NDVI GeoTIFF sample layer.</h1>
-      <p>A ready-to-load Sentinel-2 derived NDVI raster for GIS and data-science review. The download includes a compressed GeoTIFF, source metadata report, buyer README, and permitted-use disclaimer.</p>
-      <a class="cta" href="https://ridgeindex.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer">Buy/download on Gumroad</a>
-      <div class="grid">
-        <div class="card"><strong>GIS-ready</strong><span>Open directly in QGIS, ArcGIS Pro, GDAL, rasterio, or Python workflows.</span></div>
-        <div class="card"><strong>Source metadata</strong><span>Includes Sentinel-2 item ID, acquisition time, cloud cover, CRS, bounds, and NDVI metrics.</span></div>
-        <div class="card"><strong>Analytical sample</strong><span>Useful for prototyping vegetation-index dashboards and raster ETL pipelines.</span></div>
+      <div>
+        <div class="eyebrow">IndexRidge geospatial data</div>
+        <h1>UK agricultural NDVI GeoTIFF sample layer.</h1>
+        <p class="lead">A ready-to-load Sentinel-2 derived vegetation-index raster for GIS analysts, data scientists, remote-sensing learners, and teams testing raster ETL or dashboard workflows.</p>
+        <div class="cta-row">
+          <a class="cta" href="https://ridgeindex.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer?utm_source=github_pages&utm_medium=landing_page&utm_campaign=indexridge_ndvi_launch" rel="noopener">Buy/download on Gumroad</a>
+          <span class="price">£19 digital download</span>
+        </div>
+        <p class="note">No account, server, or AWS setup needed by the buyer. Download the ZIP and open the GeoTIFF in QGIS, ArcGIS Pro, GDAL, rasterio, or Python.</p>
       </div>
-      <p class="note">Not an official government, legal, insurance, planning, financial, or regulatory dataset. No AWS Marketplace/Data Exchange approval is claimed for this Gumroad listing. Validate independently before operational use.</p>
-      <p class="note">Support: IndexRidge@outlook.com</p>
+      <aside class="panel" aria-label="Product summary">
+        <div class="stats">
+          <div class="stat"><b>GeoTIFF</b><span>compressed raster</span></div>
+          <div class="stat"><b>NDVI</b><span>vegetation index</span></div>
+          <div class="stat"><b>UK AOI</b><span>agricultural sample</span></div>
+          <div class="stat"><b>Metadata</b><span>JSON report included</span></div>
+        </div>
+      </aside>
     </section>
+
+    <section>
+      <h2>What you get</h2>
+      <div class="grid">
+        <div class="card"><strong>GIS-ready raster</strong><span>Open the GeoTIFF directly in QGIS, ArcGIS Pro, GDAL, rasterio, or compatible GIS tools.</span></div>
+        <div class="card"><strong>Source metadata</strong><span>Includes Sentinel-2 item ID, acquisition time, cloud cover, CRS, bounds, dimensions, and NDVI metrics.</span></div>
+        <div class="card"><strong>Fast prototype input</strong><span>Use it to smoke-test geospatial dashboards, raster ETL, vegetation-index workflows, and Python notebooks.</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Buyer fit</h2>
+      <ul>
+        <li>You need a small paid satellite-data sample to test a GIS/data pipeline today.</li>
+        <li>You want a concrete GeoTIFF package, not a tutorial or a SaaS subscription.</li>
+        <li>You are evaluating whether broader UK vegetation-index coverage would be useful.</li>
+      </ul>
+    </section>
+
+    <section class="faq">
+      <h2>FAQ</h2>
+      <details open><summary>What files are included?</summary><p>The ZIP includes <code>uk_agri_moisture_latest.tif</code>, <code>uk_agri_moisture_latest_report.json</code>, README, and license/disclaimer text.</p></details>
+      <details><summary>Can I use it commercially?</summary><p>You may use the purchased files for internal analytical review. Do not resell, redistribute, sublicense, or republish the raw files as a competing product without written permission.</p></details>
+      <details><summary>Is this official or regulatory data?</summary><p>No. This is not an official government, legal, insurance, planning, financial, or regulatory dataset. Satellite-derived NDVI can be affected by acquisition and processing conditions. Validate independently before operational use.</p></details>
+    </section>
+
+    <footer>
+      <p class="note">No AWS Marketplace/Data Exchange approval is claimed for this Gumroad listing. Support: IndexRidge@outlook.com</p>
+      <p><a class="cta secondary" href="https://ridgeindex.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer?utm_source=github_pages&utm_medium=landing_page&utm_campaign=indexridge_ndvi_launch" rel="noopener">Open the Gumroad product</a></p>
+    </footer>
   </main>
 </body>
 </html>
