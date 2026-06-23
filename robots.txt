@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://1nfr457ruc7ur3.github.io/geospectral-data-portal/sitemap.xml
