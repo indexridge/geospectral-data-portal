@@ -1,5 +1,7 @@
 # geospectral-data-portal
 
-GeoSpectral UK Data Portal - Secure B2B Geospatial Data Delivery Node. Amazon S3 delivery under private review.
+Public marketing page for IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer.
 
-This placeholder deliberately makes no AWS Marketplace authorization, certification, liability-removal, or zero-cost guarantee claim.
+Live product: https://ridgeindex.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer
+
+This page deliberately makes no AWS Marketplace/Data Exchange approval, third-party certification, liability-removal, zero-cost, or guaranteed-accuracy claim.
