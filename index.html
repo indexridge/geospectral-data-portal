@@ -3,19 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex,nofollow">
-  <meta name="description" content="GeoSpectral UK Data Portal placeholder for private B2B geospatial data delivery review.">
-  <title>GeoSpectral UK Data Portal</title>
+  <meta name="description" content="Download an IndexRidge Sentinel-2 derived UK agricultural NDVI GeoTIFF sample layer for GIS and data-science review.">
+  <title>IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer</title>
   <style>
-    html,body{margin:0;min-height:100%;background:#f8fafc;color:#0f172a;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
-    body{display:grid;place-items:center}
-    main{max-width:56rem;padding:3rem 1.5rem;text-align:center}
-    p{margin:0 auto;color:#475569;font-size:clamp(1rem,2vw,1.25rem);line-height:1.7}
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #0f172a; }
+    .wrap { max-width: 68rem; margin: 0 auto; padding: 4rem 1.25rem; }
+    .hero { display: grid; gap: 1.25rem; padding: 3rem; border: 1px solid #dbeafe; border-radius: 2rem; background: linear-gradient(135deg,#eff6ff,#ecfeff); box-shadow: 0 24px 60px rgba(15,23,42,.08); }
+    .eyebrow { color: #0369a1; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .78rem; }
+    h1 { margin: 0; font-size: clamp(2rem, 6vw, 4.5rem); line-height: .95; letter-spacing: -.05em; }
+    p { color: #475569; line-height: 1.7; font-size: 1.08rem; }
+    .cta { display: inline-flex; align-items: center; justify-content: center; width: fit-content; padding: .9rem 1.15rem; border-radius: 999px; background: #0f172a; color: white; text-decoration: none; font-weight: 750; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(14rem,1fr)); gap: 1rem; margin-top: 1.25rem; }
+    .card { background:white; border:1px solid #e2e8f0; border-radius:1.25rem; padding:1.1rem; }
+    .card strong { display:block; margin-bottom:.35rem; }
+    .note { font-size:.95rem; color:#64748b; }
   </style>
 </head>
 <body>
-  <main>
-    <p>GeoSpectral UK Data Portal - Secure B2B Geospatial Data Delivery Node. Amazon S3 delivery under private review.</p>
+  <main class="wrap">
+    <section class="hero">
+      <div class="eyebrow">IndexRidge geospatial data</div>
+      <h1>UK agricultural NDVI GeoTIFF sample layer.</h1>
+      <p>A ready-to-load Sentinel-2 derived NDVI raster for GIS and data-science review. The download includes a compressed GeoTIFF, source metadata report, buyer README, and permitted-use disclaimer.</p>
+      <a class="cta" href="https://ridgeindex.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer">Buy/download on Gumroad</a>
+      <div class="grid">
+        <div class="card"><strong>GIS-ready</strong><span>Open directly in QGIS, ArcGIS Pro, GDAL, rasterio, or Python workflows.</span></div>
+        <div class="card"><strong>Source metadata</strong><span>Includes Sentinel-2 item ID, acquisition time, cloud cover, CRS, bounds, and NDVI metrics.</span></div>
+        <div class="card"><strong>Analytical sample</strong><span>Useful for prototyping vegetation-index dashboards and raster ETL pipelines.</span></div>
+      </div>
+      <p class="note">Not an official government, legal, insurance, planning, financial, or regulatory dataset. No AWS Marketplace/Data Exchange approval is claimed for this Gumroad listing. Validate independently before operational use.</p>
+      <p class="note">Support: IndexRidge@outlook.com</p>
+    </section>
   </main>
 </body>
 </html>
