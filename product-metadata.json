@@ -1,7 +1,7 @@
 {
   "brand": "IndexRidge",
   "landing_page": "https://1nfr457ruc7ur3.github.io/geospectral-data-portal/",
-  "updated_at_utc": "2026-06-23T10:28:06Z",
+  "updated_at_utc": "2026-06-23T10:41:54Z",
   "source_rights": {
     "source": "Copernicus Sentinel-2 L2A imagery accessed through Microsoft Planetary Computer STAC",
     "policy_summary": "Copernicus Sentinel data is described as available on a free, full and open basis; commercial reuse is allowed under the Copernicus/Sentinel data policy, subject to source acknowledgement and no-warranty limitations.",
@@ -9,6 +9,29 @@
     "access_reference": "https://www.copernicus.eu/en/terms-use/how-access-data"
   },
   "products": [
+    {
+      "key": "east_anglia_ndvi",
+      "title": "IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer",
+      "short_title": "UK Agricultural NDVI Vegetation",
+      "summary": "Sentinel-2 derived NDVI vegetation GeoTIFF sample layer with source metadata and processing notes.",
+      "index_name": "NDVI",
+      "aoi_label": "East Anglia / Cambridgeshire agricultural sample AOI",
+      "bbox_wgs84": [
+        0.05,
+        52.15,
+        0.3,
+        52.35
+      ],
+      "gumroad_product_id": "4ylx3GQR2gRgNGF4TmdqXw==",
+      "short_url": "https://indexridge.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer",
+      "published": true,
+      "price_cents": 1900,
+      "currency": "gbp",
+      "files_count": 1,
+      "source_item_id": "S2B_MSIL2A_20260619T110619_R137_T31UCU_20260619T133614",
+      "selected_datetime": "2026-06-19T11:06:19.024000Z",
+      "selected_cloud_cover": 0.764507
+    },
     {
       "key": "east_anglia_ndmi",
       "title": "IndexRidge UK Agricultural NDMI Moisture GeoTIFF Sample Layer",
@@ -79,27 +102,96 @@
       "selected_cloud_cover": 0.002191
     },
     {
-      "key": "east_anglia_ndvi",
-      "title": "IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer",
-      "short_title": "UK Agricultural NDVI Vegetation",
-      "summary": "Sentinel-2 derived NDVI vegetation GeoTIFF sample layer with source metadata and processing notes.",
+      "key": "california_agriculture_ndvi",
+      "title": "IndexRidge Global Agriculture NDVI California GeoTIFF Sample Layer",
+      "short_title": "Global Agriculture NDVI \u2014 California",
+      "summary": "Sentinel-2 derived NDVI vegetation GeoTIFF sample for global agricultural GIS and crop-monitoring workflow testing, using a California Central Valley AOI.",
       "index_name": "NDVI",
-      "aoi_label": "East Anglia / Cambridgeshire agricultural sample AOI",
+      "aoi_label": "California Central Valley agricultural sample AOI",
       "bbox_wgs84": [
-        0.05,
-        52.15,
-        0.3,
-        52.35
+        -120.55,
+        36.15,
+        -120.3,
+        36.35
       ],
-      "gumroad_product_id": "4ylx3GQR2gRgNGF4TmdqXw==",
-      "short_url": "https://indexridge.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer",
+      "gumroad_product_id": "VeYCN_GnIKCID81gwKbvPA==",
+      "short_url": "https://indexridge.gumroad.com/l/indexridge-global-agriculture-ndvi-california-geotiff-sample-layer",
       "published": true,
       "price_cents": 1900,
       "currency": "gbp",
       "files_count": 1,
-      "source_item_id": "S2B_MSIL2A_20260619T110619_R137_T31UCU_20260619T133614",
-      "selected_datetime": "2026-06-19T11:06:19.024000Z",
-      "selected_cloud_cover": 0.764507
+      "source_item_id": "S2C_MSIL2A_20260619T183921_R070_T11SKA_20260619T233627",
+      "selected_datetime": "2026-06-19T18:39:21.025000Z",
+      "selected_cloud_cover": 0.00066
+    },
+    {
+      "key": "nile_delta_ndmi",
+      "title": "IndexRidge Global Irrigated Agriculture NDMI Nile Delta GeoTIFF Sample Layer",
+      "short_title": "Global Irrigated Agriculture NDMI \u2014 Nile Delta",
+      "summary": "Sentinel-2 derived NDMI moisture GeoTIFF sample for global irrigated-agriculture and crop-stress GIS workflow testing, using a Nile Delta AOI.",
+      "index_name": "NDMI",
+      "aoi_label": "Nile Delta irrigated-agriculture sample AOI",
+      "bbox_wgs84": [
+        30.9,
+        30.75,
+        31.15,
+        31.0
+      ],
+      "gumroad_product_id": "B4eosW2yT2Bmsa6k_iVWzw==",
+      "short_url": "https://indexridge.gumroad.com/l/indexridge-global-irrigated-agriculture-ndmi-nile-delta-geotiff-sample-layer",
+      "published": true,
+      "price_cents": 1900,
+      "currency": "gbp",
+      "files_count": 1,
+      "source_item_id": "S2A_MSIL2A_20260621T083741_R064_T36RUV_20260621T135611",
+      "selected_datetime": "2026-06-21T08:37:41.024000Z",
+      "selected_cloud_cover": 16.884677
+    },
+    {
+      "key": "lake_mead_ndwi",
+      "title": "IndexRidge Global Water Body NDWI Lake Mead GeoTIFF Sample Layer",
+      "short_title": "Global Water Body NDWI \u2014 Lake Mead",
+      "summary": "Sentinel-2 derived NDWI water-index GeoTIFF sample for global water-body and reservoir GIS workflow testing, using a Lake Mead AOI.",
+      "index_name": "NDWI",
+      "aoi_label": "Lake Mead reservoir sample AOI",
+      "bbox_wgs84": [
+        -114.9,
+        36.05,
+        -114.65,
+        36.25
+      ],
+      "gumroad_product_id": "1v1xvXUBSqO_8xCZxpqT6A==",
+      "short_url": "https://indexridge.gumroad.com/l/indexridge-global-water-body-ndwi-lake-mead-geotiff-sample-layer",
+      "published": true,
+      "price_cents": 1900,
+      "currency": "gbp",
+      "files_count": 1,
+      "source_item_id": "S2B_MSIL2A_20260618T181919_R127_T11SQV_20260618T220747",
+      "selected_datetime": "2026-06-18T18:19:19.024000Z",
+      "selected_cloud_cover": 4.57467
+    },
+    {
+      "key": "dubai_urban_ndbi",
+      "title": "IndexRidge Global Urban NDBI Dubai Built-Surface GeoTIFF Sample Layer",
+      "short_title": "Global Urban NDBI \u2014 Dubai",
+      "summary": "Sentinel-2 derived NDBI built-surface GeoTIFF sample for global urban analytics and land-use GIS workflow testing, using a Dubai AOI.",
+      "index_name": "NDBI",
+      "aoi_label": "Dubai urban built-surface sample AOI",
+      "bbox_wgs84": [
+        55.2,
+        25.0,
+        55.4,
+        25.2
+      ],
+      "gumroad_product_id": "v4gvQitCAtyjD9bNSwNDgA==",
+      "short_url": "https://indexridge.gumroad.com/l/indexridge-global-urban-ndbi-dubai-built-surface-geotiff-sample-layer",
+      "published": true,
+      "price_cents": 1900,
+      "currency": "gbp",
+      "files_count": 1,
+      "source_item_id": "S2B_MSIL2A_20260621T064619_R020_T40RCN_20260621T104118",
+      "selected_datetime": "2026-06-21T06:46:19.024000Z",
+      "selected_cloud_cover": 0.025972
     }
   ]
 }
