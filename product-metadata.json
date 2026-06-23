@@ -1,0 +1,26 @@
+{
+  "product": "IndexRidge UK Agricultural NDVI GeoTIFF Sample Layer",
+  "brand": "IndexRidge",
+  "live_url": "https://ridgeindex.gumroad.com/l/indexridge-uk-agricultural-ndvi-geotiff-sample-layer",
+  "landing_page": "https://1nfr457ruc7ur3.github.io/geospectral-data-portal/",
+  "price_gbp": "19.00",
+  "format": [
+    "GeoTIFF",
+    "JSON metadata report",
+    "README",
+    "license/disclaimer"
+  ],
+  "keywords": [
+    "NDVI",
+    "GeoTIFF",
+    "Sentinel-2",
+    "QGIS",
+    "rasterio",
+    "remote sensing",
+    "UK agriculture",
+    "GIS"
+  ],
+  "published": true,
+  "updated_at_utc": "2026-06-23T10:08:04Z",
+  "limitations": "Analytical sample only; not official, regulatory, legal, insurance, planning, or financial data."
+}
