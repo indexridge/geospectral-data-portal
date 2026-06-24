@@ -13,4 +13,5 @@ Products:
 - IndexRidge Global Urban NDBI Dubai Built-Surface GeoTIFF Sample Layer (£19): https://indexridge.gumroad.com/l/indexridge-global-urban-ndbi-dubai-built-surface-geotiff-sample-layer — Sentinel-2 derived NDBI built-surface GeoTIFF sample for global urban analytics and land-use GIS workflow testing, using a Dubai AOI.
 
 Source: Copernicus Sentinel-2 L2A imagery via Microsoft Planetary Computer STAC.
+AI/automation disclosure: AI-assisted automation was involved in selecting, processing, collating, packaging, and publishing this dataset. It has not been checked, validated, or approved by a human operator before publication. Treat it as an unverified analytical sample and validate independently before use.
 Scope: regional sample AOI products across UK and non-UK locations; not full-planet, full-country, official, regulatory, legal, insurance, planning, or financial datasets; no AWS Marketplace/Data Exchange approval claimed.
