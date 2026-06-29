@@ -1,6 +1,9 @@
 # IndexRidge GeoTIFF workflow sample catalog
 
 Landing page: https://indexridge.github.io/geospectral-data-portal/
+Machine-readable product metadata: https://indexridge.github.io/geospectral-data-portal/product-metadata.json
+Catalog RSS feed: https://indexridge.github.io/geospectral-data-portal/rss.xml
+Sitemap: https://indexridge.github.io/geospectral-data-portal/sitemap.xml
 
 - Free Sentinel-2 NDVI GeoTIFF Mini Sample for QGIS/rasterio (Free): https://indexridge.gumroad.com/l/indexridge-free-sentinel-2-ndvi-geotiff-mini-sample — Free tiny Sentinel-2 NDVI GeoTIFF starter pack for checking QGIS, GDAL, and rasterio workflows before buying paid IndexRidge bundles.
 - IndexRidge UK GIS GeoTIFF Starter Bundle — NDVI NDMI NDWI NDBI (£49): https://indexridge.gumroad.com/l/indexridge-uk-gis-geotiff-starter-bundle — Four UK Sentinel-2 GeoTIFF sample AOIs for agriculture, moisture, water/wetness, and built-surface GIS workflow testing.
@@ -18,3 +21,5 @@ Landing page: https://indexridge.github.io/geospectral-data-portal/
 AI/automation disclosure: AI-assisted automation was involved in selecting, processing, collating, packaging, and publishing this dataset. It has not been checked, validated, or approved by a human operator before publication. Treat it as an unverified analytical sample and validate independently before use.
 
 Scope: regional sample AOI workflow packs, not official/regulatory/full-global datasets.
+
+Structured data: the landing page includes schema.org DataCatalog/Dataset JSON-LD for the public catalog and product pages.

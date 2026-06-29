@@ -1,7 +1,7 @@
 {
   "brand": "IndexRidge",
   "landing_page": "https://indexridge.github.io/geospectral-data-portal/",
-  "updated_at_utc": "2026-06-26T08:07:06Z",
+  "updated_at_utc": "2026-06-29T08:08:17Z",
   "ai_disclosure": "AI-assisted automation was involved in selecting, processing, collating, packaging, and publishing this dataset. It has not been checked, validated, or approved by a human operator before publication. Treat it as an unverified analytical sample and validate independently before use.",
   "human_review_status": "not_checked_by_human_operator",
   "products": [
@@ -282,5 +282,22 @@
       "ai_disclosure": "AI-assisted automation was involved in selecting, processing, collating, packaging, and publishing this dataset. It has not been checked, validated, or approved by a human operator before publication. Treat it as an unverified analytical sample and validate independently before use.",
       "human_review_status": "not_checked_by_human_operator"
     }
-  ]
+  ],
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "name": "IndexRidge Sentinel-derived GeoTIFF workflow sample catalog",
+  "description": "Public metadata for free and paid IndexRidge Sentinel-derived regional/sample AOI GeoTIFF workflow packs. The products are convenience samples for GIS workflow testing, not full-country/global or official/regulatory datasets.",
+  "url": "https://indexridge.github.io/geospectral-data-portal/",
+  "machine_readable_resources": {
+    "product_metadata_json": "https://indexridge.github.io/geospectral-data-portal/product-metadata.json",
+    "llms_txt": "https://indexridge.github.io/geospectral-data-portal/llms.txt",
+    "rss_xml": "https://indexridge.github.io/geospectral-data-portal/rss.xml",
+    "sitemap_xml": "https://indexridge.github.io/geospectral-data-portal/sitemap.xml"
+  },
+  "source_data": {
+    "source": "Copernicus Sentinel-2 L2A imagery accessed through Microsoft Planetary Computer STAC",
+    "license_reference": "https://ecds.ecmwf.int/licences/ec-sentinel",
+    "access_reference": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+    "limitations": "Derived regional/sample AOI products; independently validate before use."
+  }
 }

@@ -18,3 +18,10 @@ Landing page: https://indexridge.github.io/geospectral-data-portal/
 AI/automation disclosure: AI-assisted automation was involved in selecting, processing, collating, packaging, and publishing this dataset. It has not been checked, validated, or approved by a human operator before publication. Treat it as an unverified analytical sample and validate independently before use.
 
 Products are regional sample AOIs/workflow packs, not official/regulatory datasets and not full global coverage.
+
+Machine-readable resources:
+
+- Product metadata JSON: https://indexridge.github.io/geospectral-data-portal/product-metadata.json
+- LLM/search summary: https://indexridge.github.io/geospectral-data-portal/llms.txt
+- RSS feed: https://indexridge.github.io/geospectral-data-portal/rss.xml
+- Sitemap: https://indexridge.github.io/geospectral-data-portal/sitemap.xml
